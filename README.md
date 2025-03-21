@@ -11,16 +11,20 @@ Before training, preprocessing of data is done - null values substituted, one-ho
 * F1 Score
 * ROC Curves
 
-###Dependencies
+### Dependencies
 The following dependencies should be installed in the system before running the code. All required dependencies can be installed by running the following command:
+```bash
 pip install numpy pandas scikit-learn tensorflow matplotlib seaborn
+```
 
-###Dataset
+### Dataset
 Both train.csv and test.csv should be saved in the working directory of the project.
 
-###Running the project:
+### Running the project:
 The project can be run by running the following command in terminal/ide (edit according to the python version that is available on your system):
+```bash
 python3 Titanic_Survival_Analysis.py
+```
 
 Running this code will preprocess the data, train and validate the models, generate performance metrics and plots for each model, and save the predictions in results.csv file.
 
